@@ -6,8 +6,8 @@ A simple virtual machine written in ansii c, see wiki for more information.
 
 # Example
 <pre>
-  mov ax 0x7e3 
-  mov bx 0x7c0 
+  mov ax 2019
+  mov bx 1984
   sub ax bx
   push ax
   print
