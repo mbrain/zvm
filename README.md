@@ -5,9 +5,10 @@ A simple virtual machine written in ansii c, see wiki for more information.
  * Persistent storage
 
 # Example
+In realtime mode please only use int numbers
 <pre>
-  mov ax 2019
-  mov bx 1984
+  mov ax 0x7e3
+  mov bx 0x7c0
   sub ax bx
   push ax
   print
