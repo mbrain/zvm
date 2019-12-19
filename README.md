@@ -15,8 +15,8 @@ In realtime mode please only use int numbers
 <pre>
   mov ax 0x7e3 (2019)
   mov bx 0x7c0 (1984)
-  sub ax bx
-  push ax
+  mod ax bx
+  ldr ax
   print
 </pre>
 
